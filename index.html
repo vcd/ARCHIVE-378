@@ -1,115 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		
-		<title>DESN 378 : Web Design 2</title>
-		
-		<link rel="stylesheet" href="css/styles.css">
 
-  		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
 
-		<div class="container">
-
-<!-- Week 1 -->
+			<!-- Week 1 -->
 			<section>
 				<div class="tabs tabs-style-linetriangle">
 					<nav>
-						<h2>Week 1 : What is User Experience? (UX)</h2>
-						<ul>
-							<li><a href="#concept"><span>Concept</span></a></li>
-							<li><a href="#practice"><span>Practice</span></a></li>
-							<li><a href="#application"><span>Application</span></a></li>
-						</ul>
+						<h2>Week 6 : </h2>
+						{% include tab-nav-a.html %}
 					</nav>
 					
 					<div class="content-wrap">
-						<section id="concept"><p>Concept</p></section>
-						<section id="practice"><p>Practice</p></section>
-						<section id="application"><p>Application</p></section>
+						{% include tab-nav-b.html %}
 					</div><!-- /content -->
 
 				</div><!-- /tabs -->
 			</section>
 
-<!-- Week 2 -->
-			<section>
-				<div class="tabs tabs-style-linetriangle">
-					<nav>
-						<h2>Week 2 :  Low-to-High Fidelity Process</h2>
-						<ul>
-							<li><a href="#concept"><span>Concept</span></a></li>
-							<li><a href="#practice"><span>Practice</span></a></li>
-							<li><a href="#application"><span>Application</span></a></li>
-						</ul>
-					</nav>
-					
-					<div class="content-wrap">
-						<section id="concept"><p>Concept</p></section>
-						<section id="practice"><p>Practice</p></section>
-						<section id="application"><p>Application</p></section>
-					</div><!-- /content -->
-
-				</div><!-- /tabs -->
-			</section>
-
-
-<!-- Week 3 -->
-			<section>
-				<div class="tabs tabs-style-linetriangle">
-					<nav>
-						<h2>Week 3: JavaScript ≠ jQuery </h2>
-						<ul>
-							<li><a href="#concept"><span>Concept</span></a></li>
-							<li><a href="#practice"><span>Practice</span></a></li>
-							<li><a href="#application"><span>Application</span></a></li>
-						</ul>
-					</nav>
-					
-					<div class="content-wrap">
-						<section id="concept"><p>Concept</p></section>
-						<section id="practice"><p>Practice</p></section>
-						<section id="application"><p>Application</p></section>
-					</div><!-- /content -->
-
-				</div><!-- /tabs -->
-			</section>
-
-<!-- Week 4 -->
-			<section>
-				<div class="tabs tabs-style-linetriangle">
-					<nav>
-						<h2>Week 4: String &amp; Number Data Types</h2>
-						<ul>
-							<li><a href="#concept"><span>Concept</span></a></li>
-							<li><a href="#practice"><span>Practice</span></a></li>
-							<li><a href="#application"><span>Application</span></a></li>
-						</ul>
-					</nav>
-					
-					<div class="content-wrap">
-						<section id="concept"><p>Concept</p></section>
-						<section id="practice"><p>Practice</p></section>
-						<section id="application"><p>Application</p></section>
-					</div><!-- /content -->
-
-				</div><!-- /tabs -->
-			</section>
-
-		</div><!-- /container -->
-		<script src="js/cbpFWTabs.js"></script>
-		<script>
-			(function() {
-
-				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
-					new CBPFWTabs( el );
-				});
-
-			})();
-		</script>
-	</body>
-</html>
