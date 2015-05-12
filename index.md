@@ -90,7 +90,7 @@ layout: default
 				<h3>jQuery Plugins</h3>
 				
 				
-				{% include sample.md %}
+				{% include_relative _posts/sample.md %}
 				
 				
 			</section>
