@@ -89,6 +89,10 @@ layout: default
 			<section id="application">
 				<h3>jQuery Plugins</h3>
 				
+				
+				{% include sample.md %}
+				
+				
 			</section>
 		</div><!-- /content -->
 
